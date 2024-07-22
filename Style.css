@@ -1,0 +1,42 @@
+h1 { 
+    background-color: rgb(150, 148, 153);
+}
+
+.heading-A {
+    color: rgb(247, 20, 20);
+}
+.heading-B{
+    color: rgb(157, 255, 10);
+}
+.heading-C{
+    color: rgb(233, 21, 233);
+}
+.heading-Book{
+    color: rgb(255, 255, 0);
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+}
+.alphabet-list {
+    list-style: none;
+    margin: none;
+    padding-top: 0;
+    display: flex; 
+    flex-direction: raw;
+    align-items: center; 
+    gap: 20px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    background-color: #5ce01e;
+    color: #fff;
+    padding: 10px;
+    border: 5px solid #bd2d2d;
+    cursor: pointer;
+  }
+ 
